@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.WebOrder.cross_browser_test">
+        <methods>
+          <include name="pre_condition"/>
+          <include name="login_to_app"/>
+          <include name="post_condition"/>
+        </methods>
+      </class> <!-- com.WebOrder.cross_browser_test -->
+      <class name="com.WebOrder.WebOrder_uniqueName">
+        <methods>
+          <include name="login_to_app"/>
+          <include name="create_Order"/>
+          <include name="pre_condition"/>
+          <include name="post_condition"/>
+        </methods>
+      </class> <!-- com.WebOrder.WebOrder_uniqueName -->
+      <class name="com.WebOrder.createOrder_All_TCs">
+        <methods>
+          <include name="pre_condition"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="post_condition"/>
+          <include name="create_order"/>
+        </methods>
+      </class> <!-- com.WebOrder.createOrder_All_TCs -->
+      <class name="com.WebOrder.WebOrder_Login_GetText">
+        <methods>
+          <include name="login"/>
+          <include name="cloasbrowser"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.WebOrder.WebOrder_Login_GetText -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

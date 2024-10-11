@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+	<listeners>
+		<listener class-name="com.ExtentReport.Listeners" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.WebOrder.createOrder_All_TCs" />
+			<class name="com.WebOrder.WebOrder_Login_TCs" />
+			<class name="com.WebOrder.WebOrder_Login_GetText" />
+			<class name="com.WebOrder.WebOrder_uniqueName" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
